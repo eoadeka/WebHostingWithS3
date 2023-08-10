@@ -1,0 +1,31 @@
+# -*- conf -*-
+# References:
+# - https://stackoverflow.com/a/4695615/1219634
+# - https://stackoverflow.com/a/38297609/1219634
+
+
+# Compiled Python Files
+*.pyc
+pycache/
+__pycache__
+.pytest_cache
+
+# Editor and IDE files
+.vscode/
+
+# Cache
+caches/
+
+# Working directories
+workspace/
+
+# Secret files
+secrets/
+secret.*
+*.enc
+*.key
+users/
+
+# Log files
+logs/
+*.log
